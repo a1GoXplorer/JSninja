@@ -1,14 +1,14 @@
  
  var log = function() {
   try {
-    console.log.apply(console, arguements);
+    console.log.apply(console, arguments);
   }
   catch(e) {
     try {
-      opera.postError.apply(opera, arguements);
+      opera.postError.apply(opera, arguments);
     }
   catch(e) {
-    alert(Array.prototype.join.call(arguements, " "));
+    alert(Array.prototype.join.call(arguments, " "));
    }
   }
- }
+ };
