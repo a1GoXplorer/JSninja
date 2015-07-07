@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Useless R. Dewoh
+  </title>
+  <script type="text/javascript" src="assert.js"></script>
+  <link href="styles/assert.css" rel="stylesheet" type="text/css">
+</head>
+  <body>
+    Ninja Skills
+    <script> function useless(callback) { return callback();}
+               var text = 'Domo arigato!';
+               assert(useless(function(){ return text; }) === text, "The useless function works! " + text);
+               useless();
+    </script>
+  </body>
+</html>
+
