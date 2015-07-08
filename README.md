@@ -7,3 +7,4 @@ Secrets of the JavaScript Ninja Training Materials:
 3. Functions
 4. Unobtrusive JavaScript
 5. Callbacks
+6. Declarations and Scoping
