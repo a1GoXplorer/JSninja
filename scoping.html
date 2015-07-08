@@ -23,7 +23,7 @@
 
       function outer(){
 
-        assert(true, "|----- INSIDE OUTER, BEFORE a -----");  //#2
+        assert(true, "|----- INSIDE OUTER, BEFORE a -----|");  //#2
         assert(typeof outer==='function',
               "outer() is in scope");
         assert(typeof inner==='function',
@@ -80,7 +80,7 @@
               "c is in scope");
         }
 
-        assert(true, "|----- INSIDE OUTER, OUTSIDE if -----|");
+        assert(true, "|----- INSIDE OUTER, AFTER c -----|");
         assert(typeof outer==='function',
               "outer() is in scope");
         assert(typeof inner==='function',
